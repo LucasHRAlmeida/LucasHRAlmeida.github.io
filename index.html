@@ -99,7 +99,7 @@
   }
   </script>
   <style>
-    :root{--navy-950:#062a47;--navy-900:#0c3e67;--teal-500:#19a6c9;--green-500:#2eaf53;
+    :root{--navy-950:#062a47;--navy-900:#0c3e67;--teal-500:#19a6c9;--green-500:#2eaf53;--green-700:#147a3e;
       --ink:#122331;--muted:#526879;--line:#d7e1e8;--paper:#fff;--wash:#f3f7f9;--shell:1060px}
     *{box-sizing:border-box}
     body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
@@ -137,9 +137,19 @@
     .plist{display:flex;flex-wrap:wrap;gap:9px}
     .plist a{display:inline-flex;align-items:center;gap:7px;padding:9px 15px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--navy-900);text-decoration:none;font-size:12.5px;font-weight:750;transition:border-color .16s,transform .16s}
     .plist a:hover{border-color:var(--teal-500);transform:translateY(-2px)}
-    .consult .lede2{max-width:600px;margin:-14px 0 24px;color:var(--muted);font-size:15px}
+    .consult .lede2{max-width:640px;margin:-14px 0 26px;color:var(--muted);font-size:15px}
+    .consult .lede2 b{color:var(--ink);font-weight:750}
+    .acts2{display:flex;flex-wrap:wrap;gap:11px;margin:0 0 34px}
+    .acts2 a{display:inline-flex;align-items:center;gap:9px;min-height:48px;padding:12px 22px;border:1px solid transparent;border-radius:999px;text-decoration:none;font-size:13px;font-weight:800;transition:transform .18s,border-color .16s}
+    .acts2 a:hover{transform:translateY(-2px)}
+    .acts2 .w1{color:#fff;background:var(--green-700)}
+    .acts2 .w2{color:var(--navy-900);background:#fff;border:1px solid var(--line)}
+    .acts2 .w2:hover{border-color:var(--teal-500)}
+    .verif{display:flex;flex-wrap:wrap;align-items:center;gap:18px;padding-top:26px;border-top:1px solid var(--line)}
+    .verif .note{max-width:390px;margin:0;color:var(--muted);font-size:13px;line-height:1.6}
+    .verif .note b{color:var(--ink);font-weight:750}
     .zl-box{display:inline-block;padding:14px;border:1px solid var(--line);border-radius:16px;background:#fff;line-height:0}
-    .zl-box a.zl-url{color:var(--navy-900);font-weight:750;text-decoration:none}
+    .zl-box a.zl-url{color:var(--navy-900);font-weight:750;text-decoration:none;line-height:1.5}
     footer{padding:44px 0 26px;background:#051f34;color:rgba(255,255,255,.7);text-align:center;font-size:12.5px;line-height:1.8}
     footer strong{color:#fff}
     footer a{color:#9edce8;text-decoration:none;font-weight:700}
@@ -206,11 +216,18 @@
     <section class="sec consult">
       <div class="shell">
         <p class="kick">Atendimento clínico</p>
-        <h2>Avaliações e agendamento.</h2>
-        <p class="lede2">Perfil profissional verificado na Doctoralia — avaliações de pacientes e marcação de consulta. O agendamento ocorre na plataforma, sob os termos dela.</p>
-        <div class="zl-box">
-          <a id="zl-url" class="zl-url" href="https://www.doctoralia.com.br/lucas-h-r-almeida/generalista/lavras" rel="nofollow" data-zlw-doctor="lucas-h-r-almeida" data-zlw-type="certificate" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="true" data-zlw-a11y-title="Widget de marcação de consultas médicas">Marque uma consulta</a>
-          <script>!function($_x,_s,id){var js,fjs=$_x.getElementsByTagName(_s)[0];if(!$_x.getElementById(id)){js = $_x.createElement(_s);js.id = id;js.src = "//platform.docplanner.com/js/widget.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","zl-widget-s");</script>
+        <h2>Uma porta só para o cuidado.</h2>
+        <p class="lede2">Consultas presenciais e atendimentos remotos são combinados <b>exclusivamente pelo WhatsApp Business</b>. Não há agenda ativa em plataformas de terceiros — nenhum horário é confirmado fora desse canal.</p>
+        <div class="acts2">
+          <a class="w1" href="https://wa.me/5516996180196" rel="noopener" target="_blank">Falar pelo WhatsApp Business <span aria-hidden="true">&#8594;</span></a>
+          <a class="w2" href="https://iniciativa-via.com/via-hub/">Antes disso, veja o que a VIA oferece</a>
+        </div>
+        <div class="verif">
+          <div class="zl-box">
+            <a id="zl-url" class="zl-url" href="https://www.doctoralia.com.br/lucas-h-r-almeida/generalista/lavras" rel="nofollow noopener" target="_blank" data-zlw-doctor="lucas-h-r-almeida" data-zlw-type="certificate" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="true" data-zlw-a11y-title="Selo de perfil m&#233;dico verificado na Doctoralia">Perfil verificado na Doctoralia</a>
+            <script>!function($_x,_s,id){var js,fjs=$_x.getElementsByTagName(_s)[0];if(!$_x.getElementById(id)){js = $_x.createElement(_s);js.id = id;js.src = "//platform.docplanner.com/js/widget.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","zl-widget-s");</script>
+          </div>
+          <p class="note">Registro p&#250;blico de confer&#234;ncia profissional: CRM validado pela plataforma e opini&#245;es de pacientes j&#225; atendidos. Serve como verifica&#231;&#227;o de identidade e hist&#243;rico &#8212; <b>n&#227;o &#233; canal de marca&#231;&#227;o</b>.</p>
         </div>
       </div>
     </section>
