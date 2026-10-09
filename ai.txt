@@ -38,5 +38,5 @@ Allow: /
 # Language: pt-BR
 
 # CONTATO
-# Contact: https://wa.me/5516996180196
+# Contact: https://wa.me/5535984410983
 # Contact: https://github.com/LucasHRAlmeida/via-hub/issues
