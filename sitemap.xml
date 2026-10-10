@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://iniciativa-via.com/</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -40,6 +40,18 @@
     <loc>https://iniciativa-via.com/via-hub/ponte/</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://iniciativa-via.com/capex.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://iniciativa-via.com/via-hub/revista/especial-2026-10-04.html</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
 </urlset>
